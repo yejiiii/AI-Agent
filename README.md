@@ -15,3 +15,7 @@
 	- [BFS: Breadth First Search](./Search/BFS.md)
 	- [Best-First Search](./Search/Best_First_Search.md)
 	- [A* Search](./Search/A_Star_Search.md)
+
+- 참조
+	- Russell Chap. 3, 4, 5
+	- Luger Chap. 3
