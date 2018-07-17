@@ -5,6 +5,10 @@
 
 # Practice 1
 
+## Introduction To AI
+
+- [Introduction_To_AI.pdf](./Introduction_To_AI.pdf)
+
 ## Git
 
 - 실습
