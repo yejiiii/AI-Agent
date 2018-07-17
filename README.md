@@ -5,6 +5,8 @@
 
 ## Useage
 
+- Checkout to [**practice1**](https://github.com/spb829/AI-Agent/tree/practice1)
+
 ```
 git checkout practice1
 ```
