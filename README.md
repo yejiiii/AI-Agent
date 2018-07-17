@@ -36,3 +36,5 @@
 		- [Linux](./Python/Linux.md)
 	- [Packages 설치](./Python/pip.md)
 	- [Jupyter Notebook 설치 및 사용법](./Jupyter/README.md)
+- 실습
+	- [Python 기초](./Python/Python_tutorial.pdf)
