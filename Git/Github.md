@@ -8,6 +8,9 @@
 
 매우 빠른 속도와 분산형 저장소 지원이 특징이다. Git 자체는 오픈 소스이며 저장소는 [https://github.com/git/git](https://github.com/git/git)이다. 2010년 이후로 토르발스는 더 이상 메인 컨트리뷰터로 활동하지 않고 리포지토리를 다른 사람에게 넘긴 상태. 현재 gitster와 peff 등이 메인 컨트리뷰터로 활동하고 있다.
 
+- Download
+	- [Windows](https://git-scm.com/download/win)
+
 ### 기본 용어
 
 - 커맨드 라인(Command Line)
