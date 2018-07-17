@@ -10,6 +10,7 @@
 
 - Download
 	- [Windows](https://git-scm.com/download/win)
+	- [Google Drive](https://drive.google.com/file/d/1mpraTUqtu69nwPP26v4fv55D5lc4VIgY/view?usp=sharing)
 
 ### 기본 용어
 
