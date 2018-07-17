@@ -20,4 +20,4 @@
 
 ## Code
 
-- [Best_First_Search.ipynb](./Best_First_Search.ipynb)
+- [Best_First_Search](./Best_First_Search.html)

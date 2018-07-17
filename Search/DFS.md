@@ -24,4 +24,4 @@
 
 ## Code
 
-- [Depth_First_Search.ipynb](./Depth_First_Search.ipynb)
+- [Depth_First_Search](./Depth_First_Search.html)
