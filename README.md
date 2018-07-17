@@ -3,10 +3,15 @@
 - July, 2018 ~ August, 2018
 - Big Data X Campus in [**Dongguk Univ.**](http://www.dongguk.edu/mbs/kr/index.jsp)
 
-## Usage
+## Search
 
-- Checkout to [**practice1**](https://github.com/spb829/AI-Agent/tree/practice1)
+- [Search.pdf](./Search.pdf)
 
-```
-git checkout practice1
-```
+## Search Algorithms
+
+- 실습
+	- [실습 교안](./Search_Practice.pdf)
+	- [DFS: Depth First Search](./Search/DFS.md)
+	- [BFS: Breadth First Search](./Search/BFS.md)
+	- [Best-First Search](./Search/Best_First_Search.md)
+	- [A* Search](./Search/A_Star_Search.md)
