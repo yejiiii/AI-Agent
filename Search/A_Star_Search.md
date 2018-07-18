@@ -20,4 +20,5 @@ A-Star Search (**에이스타 탐색**)
 
 ## Code
 
-- [A_Star_Search](./A_Star_Search.html)
+- [A_Star_Search.ipynb](./A_Star_Search.ipynb)
+- [A_Star_Search.html](./A_Star_Search.html)
