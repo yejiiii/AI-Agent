@@ -53,7 +53,7 @@ def getPredictionsKNN(trainingSet, testSet, k):
 def main():
 	# Load csv data
     # Current directory
-	fileDir = os.path.dirname( os.path.abspath( __file__ ) )
+	fileDir = ''
 	fileName = 'data.csv'
 	filePath = os.path.join(fileDir, fileName)
 	dataset = loadCsv(filePath)

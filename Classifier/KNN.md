@@ -23,25 +23,27 @@
 ![dataset](./Images/dataset.png)
 
 - 이 데이터셋은 다음과 같은 9개의 Parameter들로 이루어져 있습니다.
-	1. Number of times pregnant
-	2. Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-	3. Diastolic blood pressure (mm Hg)
-	4. Triceps skin fold thickness (mm)
-	5. 2-Hour serum insulin (mu U/ml)
-	6. Body mass index (weight in kg/(height in m)^2)
-	7. Diabetes pedigree function
-	8. Age (years)
-	9. Class variable (0 or 1)
+	- Number of times pregnant
+	- Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+	- Diastolic blood pressure (mm Hg)
+	- Triceps skin fold thickness (mm)
+	- 2-Hour serum insulin (mu U/ml)
+	- Body mass index (weight in kg/(height in m)^2)
+	- Diabetes pedigree function
+	- Age (years)
+	- Class variable (0 or 1)
 
 - 맨 끝번째인 9번째에는 0과 1로 당뇨병 여부(Class)를 나타냅니다.
 
 ### 실습
 
-- 주어진 코드
-- [classifier_utils.py](./classifier_utils.py) 파일이 동일한 폴더내에 있어야 합니다.
+- 실습에 필요한 파일들
+	- [classifier_utils.py](./classifier_utils.py)
+	- [data.csv](./data.csv)
+	- 위 파일들이 동일한 폴더내에 있어야 합니다.
 - [KNN.py](./KNN.py)
 
 ## 가중치를 활용한 KNN 구현 실습
 
-- 위에서 실행해본 코드를 토대로 가중치를 적용시킨 KNN 분류기를 설계, 구현
+- 위에서 작성한 코드를 토대로 가중치(Weight)를 적용시킨 KNN 분류기를 설계 및 구현
 
