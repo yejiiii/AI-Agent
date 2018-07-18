@@ -1,9 +1,11 @@
 
 # Pandas Exercise
 
+- [Jupyter Notebook 버전](./Pandas_Exercise.ipynb)
+
 ## 1. Load Packages
 
-## 2. Import DataSet
+## 2. Import [DataSet](https://raw.githubusercontent.com/spb829/AI-Agent/practice3/Packages/Pandas/data.csv)
 
 
 ```python
