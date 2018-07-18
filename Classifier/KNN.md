@@ -16,86 +16,32 @@
 
 ## KNN 분류기 구현 실습
 
-- 주어진 코드를 받아 실행해보세요.
+### DataSet
+- [Pima Indians Diabetes](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
+- 북미 원시인(인디언)의 한 부족인 **피마족 여성**에 대한 데이터셋으로 BMI, 나이 등의 8가지 변수와 당뇨병을 앓고 있는 지 여부(0 or 1)가 나타나 있습니다.
+
+![dataset](./Images/dataset.png)
+
+- 이 데이터셋은 다음과 같은 9개의 Parameter들로 이루어져 있습니다.
+	- 1. Number of times pregnant
+	- 2. Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+	- 3. Diastolic blood pressure (mm Hg)
+	- 4. Triceps skin fold thickness (mm)
+	- 5. 2-Hour serum insulin (mu U/ml)
+	- 6. Body mass index (weight in kg/(height in m)^2)
+	- 7. Diabetes pedigree function
+	- 8. Age (years)
+	- 9. Class variable (0 or 1)
+
+- 맨 끝번째인 9번째에는 0과 1로 당뇨병 여부(Class)를 나타냅니다.
+
+### 실습
+
+- 주어진 코드
 - [classifier_utils.py](./classifier_utils.py) 파일이 동일한 폴더내에 있어야 합니다.
 - [KNN.py](./KNN.py)
-```python
-import numpy as np
-import os
-from collections import Counter
-from classifier_utils import *
-
-# get most common class in the instances
-def vote(neighbors):
-    class_counter = Counter()
-    for neighbor in neighbors:
-        class_counter[neighbor[-1]] += 1
-    return class_counter.most_common(1)[0][0]
-
-# get distance between 2 instances
-def distance(instance1, instance2):
-    # just in case, if the instances are lists or tuples:
-    instance1 = np.array(instance1) 
-    instance2 = np.array(instance2)
-	# 2-norm
-    return np.linalg.norm(instance1 - instance2)
-
-# get neighbors
-def getNeighbors(trainingSet, 
-                  testInstance, 
-                  k, 
-                  distance=distance):
-    distances = []
-	# for each instances in trainingSet
-    for index in range(len(trainingSet)):
-		# get distance from testInstance
-        dist = distance(testInstance, trainingSet[index])
-		# put (instance, distance, class of instance) into distances array
-        distances.append((trainingSet[index], dist, trainingSet[index][-1]))
-	
-	# sort distances
-    distances.sort(key=lambda x: x[1])
-	# get k neighbors
-    neighbors = distances[:k]
-    return neighbors
-
-def getPredictionsKNN(trainingSet, testSet, k):
-    predictions = []
-	# for each instances(vectors) in testSet
-    for i in range(len(testSet)):
-		# get K neighbors from trainingSet
-        neighbors = getNeighbors(trainingSet, testSet[i], k, distance=distance)
-		# get most common class in the neighbors
-        prediction = vote(neighbors)
-		# put result in the predictions
-        predictions.append(prediction)
-        # print("index: ", i, ", prediction: ", prediction, ", label: ", testSet[i][-1], ", result: ", (prediction==testSet[i][-1]))
-    return predictions
-
-def main():
-	# Load csv data
-    # Current directory
-	fileDir = os.path.dirname( os.path.abspath( __file__ ) )
-	fileName = 'data.csv'
-	filePath = os.path.join(fileDir, fileName)
-	dataset = loadCsv(filePath)
-
-	# Split dataset into trainingSet and testSet
-	splitRatio = 0.67
-	trainingSet, testSet = splitDataset(dataset, splitRatio)
-	print('Split {0} rows into train={1} and test={2} rows'.format(len(dataset), len(trainingSet), len(testSet)))
-	
-	# Set K
-	K = 5
-	predictionsKNN = getPredictionsKNN(trainingSet, testSet, K)
-	accuracy = getAccuracy(testSet, predictionsKNN)
-	print('KNN Classifier, K = {0}'.format(K))
-	print('Accuracy: {0}%'.format(accuracy))
-
-main()
-```
 
 ## 가중치를 활용한 KNN 구현 실습
 
 - 위에서 실행해본 코드를 토대로 가중치를 적용시킨 KNN 분류기를 설계, 구현
-- [정답 Sample](./WeightedKNN.py)
+
