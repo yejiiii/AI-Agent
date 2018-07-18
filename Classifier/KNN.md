@@ -18,7 +18,7 @@
 
 ### DataSet
 - [Pima Indians Diabetes](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
-- 북미 원시인(인디언)의 한 부족인 **피마족 여성**에 대한 데이터셋으로 BMI, 나이 등의 8가지 변수와 당뇨병을 앓고 있는 지 여부(0 or 1)가 나타나 있습니다.
+- 북미 원주민(인디언)의 한 부족인 **피마족 여성**에 대한 데이터셋으로 BMI, 나이 등의 8가지 변수와 당뇨병을 앓고 있는 지 여부(0 or 1)가 나타나 있습니다.
 
 ![dataset](./Images/dataset.png)
 
