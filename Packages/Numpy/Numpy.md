@@ -1,4 +1,3 @@
-
 # Numpy
 
 - [Jupyter Notebook 버전](./Numpy.ipynb)
@@ -12,94 +11,7 @@ print("Load numpy")
 ```
 
     Load numpy
-
-
-# Print function usages
-
-
-```python
-print("Hello, world")
-
-# Three popular types
-
-# 1. INTEGER
-x = 3;
-print ("Integer: %01d, %02d, %03d, %04d, %05d" 
-       % (x, x, x, x, x))
-# 2. FLOAT
-x = 123.456;
-print ("Float: %.0f, %.1f, %.2f, %1.2f, %2.2f" 
-       % (x, x, x, x, x))
-# 3. STRING
-x = "Hello, world"
-print ("String: [%s], [%3s], [%20s]" 
-       % (x, x, x))
-```
-
-    Hello, world
-    Integer: 3, 03, 003, 0003, 00003
-    Float: 123, 123.5, 123.46, 123.46, 123.46
-    String: [Hello, world], [Hello, world], [        Hello, world]
-
-
-# For + If / Else
-
-
-```python
-dlmethods = ["ANN", "MLP", "CNN", "RNN", "DAE"]
-
-for alg in dlmethods:
-    if alg in ["ANN", "MLP"]:
-        print ("We have seen %s" % (alg))
-```
-
-    We have seen ANN
-    We have seen MLP
-
-
-
-```python
-dlmethods = ["ANN", "MLP", "CNN", "RNN", "DAE"];
-for alg in dlmethods:
-    if alg in ["ANN", "MLP", "CNN"]:
-        print ("%s is a feed-forward network." % (alg))
-    elif alg in ["RNN"]:
-        print ("%s is a recurrent network." % (alg))
-    else:
-        print ("%s is an unsupervised method." % (alg))
-```
-
-    ANN is a feed-forward network.
-    MLP is a feed-forward network.
-    CNN is a feed-forward network.
-    RNN is a recurrent network.
-    DAE is an unsupervised method.
-
-
-
-```python
-# Advanced
-print("\nFOR loop with index.")
-for alg, i in zip(dlmethods, range(len(dlmethods))):
-    if alg in ["ANN", "MLP", "CNN"]:
-        print ("[%d/%d] %s is a feed-forward network." 
-               % (i, len(dlmethods), alg))
-    elif alg in ["RNN"]:
-        print ("[%d/%d] %s is a recurrent network." 
-               % (i, len(dlmethods), alg))
-    else:
-        print ("[%d/%d] %s is an unsupervised method." 
-               % (i, len(dlmethods), alg))
-```
-
     
-    FOR loop with index.
-    [0/5] ANN is a feed-forward network.
-    [1/5] MLP is a feed-forward network.
-    [2/5] CNN is a feed-forward network.
-    [3/5] RNN is a recurrent network.
-    [4/5] DAE is an unsupervised method.
-
 
 # Print function for Numpy
 
@@ -131,7 +43,7 @@ print_np(x)
     Shape is (3,)
     Values are: 
     [5 2 3]
-
+    
 
 # Rank 2 Array
 
@@ -146,7 +58,7 @@ print_np(y)
     Values are: 
     [[1 2 3]
      [4 5 6]]
-
+    
 
 # Zeros
 
@@ -162,7 +74,7 @@ print_np(a)
     [[0. 0.]
      [0. 0.]
      [0. 0.]]
-
+    
 
 # Ones
 
@@ -176,7 +88,7 @@ print_np(b)
     Shape is (1, 2)
     Values are: 
     [[1. 1.]]
-
+    
 
 # Identity
 
@@ -191,7 +103,7 @@ print_np(c)
     Values are: 
     [[1. 0.]
      [0. 1.]]
-
+    
 
 # Random (Uniform)
 
@@ -204,9 +116,9 @@ print_np(d)
     Type is <class 'numpy.ndarray'>
     Shape is (2, 2)
     Values are: 
-    [[0.75244826 0.89121751]
-     [0.45432197 0.36453902]]
-
+    [[0.37799279 0.71284151]
+     [0.09594874 0.13757527]]
+    
 
 # Random (Gaussian)
 
@@ -219,9 +131,9 @@ print_np(e)
     Type is <class 'numpy.ndarray'>
     Shape is (1, 10)
     Values are: 
-    [[-0.44912084 -0.37443945 -0.65444492 -0.00109311  0.22234935 -0.04107098
-      -0.75785218  0.57953826  0.85421762  1.03633175]]
-
+    [[ 1.31921442 -0.71531349  0.41529505  0.22910796 -0.59458392 -1.87981878
+      -0.26474852 -0.75679652  0.90544352  0.10187152]]
+    
 
 # Array Indexing
 
@@ -256,7 +168,7 @@ print_np(b)
     Values are: 
     [[2 3]
      [6 7]]
-
+    
 
 # Get Row
 
@@ -292,7 +204,7 @@ print_np(row_r3)
     Shape is (1, 4)
     Values are: 
     [[5 6 7 8]]
-
+    
 
 
 ```python
@@ -324,7 +236,7 @@ print_np(c)
     Shape is (3,)
     Values are: 
     [1 4 5]
-
+    
 
 # DataTypes
 
@@ -351,7 +263,7 @@ print_np(z)
     Shape is (2,)
     Values are: 
     [1 2]
-
+    
 
 # Array Math
 
@@ -369,7 +281,7 @@ print(np.add(x, y))
      [10. 12.]]
     [[ 6.  8.]
      [10. 12.]]
-
+    
 
 
 ```python
@@ -382,7 +294,7 @@ print(np.subtract(x, y))
      [-4. -4.]]
     [[-4. -4.]
      [-4. -4.]]
-
+    
 
 
 ```python
@@ -395,7 +307,7 @@ print(np.multiply(x, y))
      [21. 32.]]
     [[ 5. 12.]
      [21. 32.]]
-
+    
 
 
 ```python
@@ -410,7 +322,7 @@ print(np.divide(x, y))
      [0.42857143 0.5       ]]
     [[0.2        0.33333333]
      [0.42857143 0.5       ]]
-
+    
 
 
 ```python
@@ -422,7 +334,7 @@ print(np.sqrt(x))
 
     [[1.         1.41421356]
      [1.73205081 2.        ]]
-
+    
 
 
 ```python
@@ -475,7 +387,7 @@ print(np.dot(x, y))
      [43 50]]
     [[19 22]
      [43 50]]
-
+    
 
 
 ```python
@@ -501,7 +413,7 @@ print(np.sum(x, axis=1))  # Compute sum of each row
     10
     [4 6]
     [3 7]
-
+    
 
 
 ```python
@@ -513,7 +425,7 @@ print(x.T)
      [3 4]]
     [[1 3]
      [2 4]]
-
+    
 
 
 ```python
@@ -524,7 +436,7 @@ print(v.T)
 
     [1 2 3]
     [1 2 3]
-
+    
 
 
 ```python
@@ -537,4 +449,4 @@ print(v.T)
     [[1]
      [2]
      [3]]
-
+    
