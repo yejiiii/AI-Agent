@@ -15,12 +15,12 @@
 
 ## Python: Packages
 - 실습
-	- [numpy](./Python/Packages/Numpy/Numpy.md)
-	- [pandas](./Python/Packages/Pandas/Pandas.md)
-	- [matplotlib](./Python/Packages/Matplotlib/Matplotlib.md)
+	- [numpy](./Packages/Numpy/Numpy.md)
+	- [pandas](./Packages/Pandas/Pandas.md)
+	- [matplotlib](./Packages/Matplotlib/Matplotlib.md)
 - 참조
 	- [10 Minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html#min)
-	- [scipy - numpy tutorials](https://docs.scipy.org/doc/numpy/user/quickstart.html)
+	- [scipy: numpy tutorials](https://docs.scipy.org/doc/numpy/user/quickstart.html)
 
 ## K-NN Classifier
 - 실습
