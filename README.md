@@ -7,7 +7,7 @@
 
 ## Logical Reasoning
 
-- [Logical_Reasoning.pdf](./Logical_Reasning.pdf)
+- [Logical_Reasoning.pdf](./Logical_Reasoning.pdf)
 
 ## Knowledge Based System
 
