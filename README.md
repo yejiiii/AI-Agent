@@ -32,6 +32,7 @@
 
 - 실습
 	- [KNN Classifier](./Classifier/KNN.md)
+	- [Install Packages if required](./Packages/pip.md)
 - 참조
 	- [sklearn: KNN classfier](http://scikit-learn.org/stable/modules/neighbors.html)
 
