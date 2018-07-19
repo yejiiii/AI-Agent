@@ -16,6 +16,7 @@
 ## 실습
 
 - [Exercise: Logical Reasoning](./Day3_Exercise.pdf)
+	- [Solution](./Day3_Exercise_Solution.pdf)
 - [LR&KBS_Exercise.pdf](./LR&KBS_Exercise.pdf)
 
 ### Python: Packages
