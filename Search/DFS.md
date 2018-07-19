@@ -26,3 +26,7 @@
 
 - [Depth_First_Search.ipynb](./Depth_First_Search.ipynb)
 - [Depth_First_Search.html](./Depth_First_Search.html)
+
+## Solution
+
+- [Solution](./Solutions/Depth_First_Search.ipynb)
