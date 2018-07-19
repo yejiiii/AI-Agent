@@ -48,3 +48,5 @@
 	- 위 파일들이 동일한 폴더내에 있어야 합니다.
 - [KNN.ipynb](./KNN.ipynb)
 - [KNN.html](./KNN.html)
+
+- [Solution](./KNN_Solution.ipynb)
