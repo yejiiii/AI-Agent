@@ -13,8 +13,9 @@
 
 - [Knowledge_Based_System.pdf](./Knowledge_Based_System.pdf)
 
-## Logical Reasoning & Knowledge Based System 실습
+## 실습
 
+- [Exercise: Logical Reasoning](./Day3_Exercise.pdf)
 - [LR&KBS_Exercise.pdf](./LR&KBS_Exercise.pdf)
 
 ### Python: Packages
