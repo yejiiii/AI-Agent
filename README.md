@@ -12,7 +12,8 @@
 ## Search Algorithms
 
 - 실습
-	- [실습 교안](./Search_Practice.pdf)
+	- [Search Practice](./Search_Practice.pdf)
+		- [Solution](./Search_Practice_Solution.pdf)
 	- [DFS: Depth First Search](./Search/DFS.md)
 	- [BFS: Breadth First Search](./Search/BFS.md)
 	- [Best-First Search](./Search/Best_First_Search.md)
