@@ -35,15 +35,16 @@
 
 - 맨 끝번째인 9번째에는 0과 1로 당뇨병 여부(Class)를 나타냅니다.
 
-### 실습
+### sklearn: KNN 실습
+
+- [sklearn_KNN.ipynb](./sklearn_KNN.ipynb)
+- [sklearn_KNN.html](./sklearn_KNN.html)
+
+### 가중치를 활용한 KNN 구현 실습
 
 - 실습에 필요한 파일들
 	- [classifier_utils.py](./classifier_utils.py)
 	- [data.csv](./data.csv)
 	- 위 파일들이 동일한 폴더내에 있어야 합니다.
-- [KNN.py](./KNN.py)
-
-## 가중치를 활용한 KNN 구현 실습
-
-- 위에서 작성한 코드를 토대로 가중치(Weight)를 적용시킨 KNN 분류기를 설계 및 구현
-
+- [KNN.ipynb](./KNN.ipynb)
+- [KNN.html](./KNN.html)
