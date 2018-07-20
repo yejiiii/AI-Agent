@@ -14,11 +14,12 @@
 - 실습
 	- [Probability](./Probability/Probability.ipynb)
 
-## Naive Bayesian Classifier
+## Classifiers
 
 - 실습
 	- [sklearn: Naive Bayesian Classifier](./Classifier/sklearn_Naive_Bayes.ipynb)
 	- [Naive Bayesian Classifier](./Classifier/Naive_Bayes_Exercise.ipynb)
+	- [Generative Model Exercise](./Classifier/Generative_Model_Exercise.ipynb)
 
 ## 참조
 
