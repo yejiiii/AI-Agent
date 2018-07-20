@@ -8,6 +8,7 @@
 ## Probabilistic Reasoning
 
 - [Probabilistic_Reasoning.pdf](./Probabilistic_Reasoning.pdf)
+- [Probabilistic_Reasoning_실습.pdf](./Probabilistic_Reasoning_실습.pdf)
 
 ## Probability
 
