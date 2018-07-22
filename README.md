@@ -15,7 +15,7 @@
 - 참조
 	- [sklearn: Decision tree](http://scikit-learn.org/stable/modules/tree.html)
 	- [sklearn: iris, Decision tree](https://medium.com/@rnbrown/creating-and-visualizing-decision-trees-with-python-f8e8fa394176)
-	- [k-means, DBSCAN, hierarchical, EM](http://scikit-learn.org/stable/modules/clustering.html#clustering)
+	- [sklearn: clustering(k-means, DBSCAN, hierarchical, EM)](http://scikit-learn.org/stable/modules/clustering.html#clustering)
 	- [GraphViz](https://graphviz.gitlab.io/_pages/Download/Download_windows.html)
 	- [Tiny ImageNet](https://tiny-imagenet.herokuapp.com/)
 		- [Tiny ImageNet Image Classification](http://cs231n.stanford.edu/reports/2017/pdfs/940.pdf)
