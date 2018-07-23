@@ -8,17 +8,25 @@
 - 이론수업
 	- [Machine_Learning.pdf](./Machine_Learning.pdf)
 
+# Exercise
+
+- [Machine_Learning_실습](./Machine_Learning_실습.pdf)
+
+## Decision Treee
+
 - 실습
-	- Outlier 찾기 (IRIS DataSet)
-	- Decision tree
+	- [sklearn: Decision_Tree_Exercise](./DecisionTree/sklearn_Decision_Tree_Exercise.ipynb)
+	- [Decision_Tree_entropy_Exercise](./DecisionTree/Decision_Tree_entropy_Exercise.ipynb)
+	- [Decision_Tree_gini](./DecisionTree/Decision_Tree_gini.ipynb)
 
 - 참조
 	- [sklearn: Decision tree](http://scikit-learn.org/stable/modules/tree.html)
 	- [sklearn: iris, Decision tree](https://medium.com/@rnbrown/creating-and-visualizing-decision-trees-with-python-f8e8fa394176)
+
+## Clustering
+
+- 실습
+	- [sklearn: Clustering_Exercise](./Clustering/sklearn_Clustering_Exercise.ipynb)
+
+- 참조
 	- [sklearn: clustering(k-means, DBSCAN, hierarchical, EM)](http://scikit-learn.org/stable/modules/clustering.html#clustering)
-	- [GraphViz](https://graphviz.gitlab.io/_pages/Download/Download_windows.html)
-	- [Tiny ImageNet](https://tiny-imagenet.herokuapp.com/)
-		- [Tiny ImageNet Image Classification](http://cs231n.stanford.edu/reports/2017/pdfs/940.pdf)
-		- [VGGNet and Tiny ImageNet](https://learningai.io/projects/2017/06/29/tiny-imagenet.html)
-		- [tiny-imagenet example: pat-coady](https://github.com/pat-coady/tiny_imagenet)
-		- [tiny-imagenet example: queuestack](https://github.com/queuestack/TinyImageNet)
