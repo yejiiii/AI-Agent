@@ -7,7 +7,9 @@
 
 - [Deep Learning](./Deep_Learning.pdf)
 
-## Exercise: Tensorflow
+# Exercise
+
+## Tensorflow
 
 - Exercise
 	- [tensorflow 소개](./Tensorflow/Tensorflow.md)
@@ -20,7 +22,7 @@
 	- [골빈 해커의 3분 딥 러닝](https://github.com/golbin/TensorFlow-Tutorials)
 	- [tensorflow-101: tensorflow tutorials using Jupyter Notebook](https://github.com/sjchoi86/Tensorflow-101)
 
-## Exercise: Deep Learning
+## Deep Learning
 
 - Exercise
 	- [sample](./)
