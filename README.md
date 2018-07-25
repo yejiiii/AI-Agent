@@ -14,7 +14,7 @@
 
 - Exercise
 	- [tensorflow 소개](./DeepLearning/Tensorflow.md)
-	- [tensorflow: basic](./Python/Packages/DeepLearning/tensorflow_basic_exercise.ipynb)
+	- [tensorflow: basic](./DeepLearning/tensorflow_basic_exercise.ipynb)
 - Reference
 	- [tensorflow tutorials 2017 - MorvanZhou](https://github.com/MorvanZhou/Tensorflow-Tutorial)
 	- [골빈 해커의 3분 딥 러닝](https://github.com/golbin/TensorFlow-Tutorials)
