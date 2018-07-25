@@ -14,7 +14,7 @@
 
 - Exercise
 	- [tensorflow 소개](./DeepLearning/Tensorflow.md)
-	- [tensorflow: basic](./DeepLearning/tensorflow_basic_exercise.ipynb)
+	- [tensorflow: basic](./DeepLearning/tensorflow_basic_Exercise.ipynb)
 - Reference
 	- [tensorflow tutorials 2017 - MorvanZhou](https://github.com/MorvanZhou/Tensorflow-Tutorial)
 	- [골빈 해커의 3분 딥 러닝](https://github.com/golbin/TensorFlow-Tutorials)
@@ -24,8 +24,8 @@
 
 - Exercise
 	- [Basic Neural Networks](./DeepLearning/basic_Neural_Networks.ipynb)
-	- [XOR problem](./DeepLearning/XOR_problem.ipynb)
-	- [Function Approximation](./DeepLearning/Function_Approximation.ipynb)
+	- [XOR problem](./DeepLearning/XOR_problem_Exercise.ipynb)
+	- [Function Approximation](./DeepLearning/Function_Approximation_Exercise.ipynb)
 	- [tensorflow: Custom Neural Networks](./DeepLearning/TF_Custom_NN.ipynb)
 - Reference
 	- [Tiny ImageNet](https://tiny-imagenet.herokuapp.com/)
