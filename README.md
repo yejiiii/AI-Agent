@@ -6,17 +6,15 @@
 # Day 7
 
 - [Deep Learning](./Deep_Learning.pdf)
+- [Deep Learning Exercise Overview](./Deep_Learning_실습.pdf)
 
 # Exercise
 
 ## Tensorflow
 
 - Exercise
-	- [tensorflow 소개](./Tensorflow/Tensorflow.md)
-	- [tensorflow: basic](./Python/Packages/Tensorflow/Tensorflow-basic.md)
-	- tensorflow: 뉴런 하나 학습시키기
-	- tensorflow: 선형회귀 문제 풀기
-	- tensorflow: 분류문제 풀기 (MLP)
+	- [tensorflow 소개](./DeepLearning/Tensorflow.md)
+	- [tensorflow: basic](./Python/Packages/DeepLearning/tensorflow_basic_exercise.ipynb)
 - Reference
 	- [tensorflow tutorials 2017 - MorvanZhou](https://github.com/MorvanZhou/Tensorflow-Tutorial)
 	- [골빈 해커의 3분 딥 러닝](https://github.com/golbin/TensorFlow-Tutorials)
@@ -25,7 +23,10 @@
 ## Deep Learning
 
 - Exercise
-	- [sample](./)
+	- [Basic Neural Networks](./DeepLearning/basic_Neural_Networks.ipynb)
+	- [XOR problem](./DeepLearning/XOR_problem.ipynb)
+	- [Function Approximation](./DeepLearning/Function_Approximation.ipynb)
+	- [tensorflow: Custom Neural Networks](./DeepLearning/TF_Custom_NN.ipynb)
 - Reference
 	- [Tiny ImageNet](https://tiny-imagenet.herokuapp.com/)
 		- [Tiny ImageNet Image Classification](http://cs231n.stanford.edu/reports/2017/pdfs/940.pdf)
